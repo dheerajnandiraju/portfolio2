@@ -1,0 +1,55 @@
+.parent{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50vw;
+}
+.top{
+
+    color: #242B30;
+  
+    position: relative;
+    font-size: 10vw;
+    font-weight: bolder;
+    margin: 0rem 0rem -1vw 0rem;
+    z-index: 0;
+
+   
+    background: -webkit-linear-gradient(90deg, rgba(36,43,48,1) 40%, rgba(255,255,255,1) 80%);
+    background-clip: text;
+    -webkit-text-stroke: 7px transparent;
+    
+ 
+}
+.middle{
+    position: absolute;
+    font-size: 10vw;
+    font-weight: bolder;
+    margin: -5.5vw 0rem 0rem 0rem;
+    z-index: 1;
+
+}
+.bottom{
+    color: #242B30;
+  
+    position: relative;
+    font-size: 10vw;
+    font-weight: bolder;
+    margin: -1vw 0rem 0rem 0rem;
+    z-index: 0;
+
+   
+    background: -webkit-linear-gradient(-90deg, rgba(36,43,48,1) 40%, rgba(255,255,255,1) 80%);
+    background-clip: text;
+    -webkit-text-stroke: 7px transparent;
+
+}
+
+.text{
+   
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
