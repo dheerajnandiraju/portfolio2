@@ -1,0 +1,38 @@
+#head{
+    margin: 1vw 0vw 0vw 5vw;
+    font-size: 6vw;
+}
+
+.main{
+    text-align: center;
+    vertical-align: top;
+}
+.container{
+   
+    width: 30vw;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.container2{
+    text-align: left;
+    display: inline-block;
+}
+
+.sideheading{
+    text-align: left;
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 3vw;
+}
+
+.skills{
+    width: fit-content;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{width: 100%;margin: 1rem 0rem 0rem 3rem;}
+    .main{text-align: left;}
+}
