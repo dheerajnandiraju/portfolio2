@@ -4,14 +4,14 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 50vw;
+    height: 90vh;
 }
 .top{
 
     color: #242B30;
   
     position: relative;
-    font-size: 10vw;
+    font-size: 12vw;
     font-weight: bolder;
     margin: 0rem 0rem -1vw 0rem;
     z-index: 0;
@@ -25,9 +25,9 @@ flex-direction: column;
 }
 .middle{
     position: absolute;
-    font-size: 10vw;
+    font-size: 12vw;
     font-weight: bolder;
-    margin: -5.5vw 0rem 0rem 0rem;
+    margin: -7vw 0rem 0rem 0rem;
     z-index: 1;
 
 }
@@ -35,7 +35,7 @@ flex-direction: column;
     color: #242B30;
   
     position: relative;
-    font-size: 10vw;
+    font-size: 12vw;
     font-weight: bolder;
     margin: -1vw 0rem 0rem 0rem;
     z-index: 0;
@@ -52,4 +52,11 @@ flex-direction: column;
     display: flex;
     justify-self: center;
     justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .top{font-size: 17vw;}
+    .middle{font-size: 17vw; margin-top: -10vw;}
+    .bottom{font-size: 17vw;}
 }

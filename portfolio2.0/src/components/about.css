@@ -1,0 +1,33 @@
+
+.head{
+    margin: 1rem 0rem -3rem 1rem
+}
+
+.img{
+    margin: 2rem 0rem 0rem 0rem;
+    width: 400px;
+    height: auto;
+}
+
+.left{
+  width: 50%;
+  text-align: center;
+display: inline-block;
+}
+
+.right{
+   vertical-align: middle;
+    padding: 1rem;
+    width: 50%;
+display: inline-block;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .left{ width: 100%;}
+    .right{width: 100%;}
+}
+
+@media screen and (max-width:400px) {
+    .img{width: 300px;}
+}
