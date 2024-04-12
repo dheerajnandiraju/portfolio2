@@ -4,3 +4,7 @@ font-family: "";
 color: white;
 font-family: 'Inria Sans';
 }
+
+*{
+    cursor: none;
+}
