@@ -6,6 +6,7 @@ import Home from './components/home';
 import About from './components/about';
 import Skills from './components/skills';
 import { useEffect, useState } from 'react';
+import Achivements from './components/achivements';
 
 function App() {
   const [mousep, setmousep]=useState({x:0, y:0})
@@ -52,7 +53,7 @@ window.removeEventListener("mousemove", mouseMove)
 <hr/>
 <Skills/>
 <hr/>
-
+<Achivements/>
     </div>
   );
 }
