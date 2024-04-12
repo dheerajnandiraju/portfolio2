@@ -51,6 +51,8 @@ window.removeEventListener("mousemove", mouseMove)
 <About/>
 <hr/>
 <Skills/>
+<hr/>
+
     </div>
   );
 }
