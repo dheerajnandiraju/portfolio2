@@ -6,7 +6,7 @@ function Skills() {
     <div style={{ verticalAlign: "center" }}>
       <heading id="head">Skills</heading>
       <div className="main">
-        <div style={{ margin: "0rem 0rem 0rem 4vw" }} className="container">
+        <div className="container">
           <div className="sideheading">: : Soft Skill</div>
           <div className="container2">
             <div className="skills">Communication</div>
