@@ -10,7 +10,7 @@ import Achivements from './components/achivements';
 
 function App() {
   const [mousep, setmousep]=useState({x:0, y:0})
-  console.log(mousep)
+
 
   useEffect(()=>{
 const mouseMove=(e)=>{

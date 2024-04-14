@@ -1,8 +1,8 @@
 .certificate{
     display: inline-block;
     margin: 0rem 5vw 0rem 5vw;
-    height: 25vw;
-    width: auto;
+    height: 23vw;
+    width: 35vw;
 }
 
 .inside{
@@ -13,7 +13,8 @@
    
 }
 
-.text{
+.t{
+    font-size: 5rem;
     height: auto;
     width: 50vw;
     display: inline-block;
@@ -21,7 +22,16 @@
 
 }
 
-.p{
-    font-size: x-small;
+.info{
+    font-size: x-large;
 }
+
+@media screen and (max-width:1000px) {
+    .info{
+        margin: 0rem 0rem 0rem 3vw;
+        font-size:small;
+    } 
+    .certificate{height: 30vw;}
+}
+
 
