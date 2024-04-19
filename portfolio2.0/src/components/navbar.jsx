@@ -14,7 +14,7 @@ function Navbar() {
       >
         <div>
           <a
-            style={{ fontSize: "2rem" }}
+            style={{ fontSize: "2.5rem" }}
             className="navbar-brand text-white"
             href="#"
           >
@@ -118,7 +118,11 @@ function Navbar() {
               </div>
             </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div
+            style={{ fontSize: "1.5rem" }}
+            className="collapse navbar-collapse"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item active">
                 <a className="nav-link text-white" href="#">

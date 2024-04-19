@@ -1,0 +1,29 @@
+.car{
+    width: 80vw;
+display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.par{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1vw;
+}
+
+.butto{
+    padding: 1vw;
+    background-color: transparent;
+    border: none;
+}
+
+
+

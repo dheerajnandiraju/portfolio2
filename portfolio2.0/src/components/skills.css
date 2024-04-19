@@ -42,4 +42,5 @@
 @media screen and (max-width: 1000px) {
     .container{width: 90%;margin: 1rem 0rem 0rem 3rem;}
     .main{text-align: left;}
+    .container2{font-size: 2vw;}
 }
