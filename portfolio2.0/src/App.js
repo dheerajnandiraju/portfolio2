@@ -54,6 +54,7 @@ window.removeEventListener("mousemove", mouseMove)
 <Skills/>
 <hr/>
 <Achivements/>
+<hr/>
     </div>
   );
 }
