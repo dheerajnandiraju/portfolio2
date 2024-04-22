@@ -29,7 +29,7 @@
 @media screen and (max-width:1000px) {
     .info{
         margin: 0rem 0rem 0rem 3vw;
-        font-size:small;
+        font-size:3vw;
     } 
     .certificate{height: 30vw;}
 }

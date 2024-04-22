@@ -10,17 +10,18 @@
 }
 
 .left{
-  width: 50%;
+  width: 40%;
   text-align: center;
 display: inline-block;
 }
 
 .right{
+    font-size: x-large;
    vertical-align: middle;
     padding: 1rem;
     width: 50%;
 display: inline-block;
-
+margin: 0rem -10vw 0rem 0rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -29,6 +30,3 @@ display: inline-block;
     .right{width: 100%;margin: -10vw 0rem 0rem 0rem;}
 }
 
-@media screen and (max-width:400px) {
-    .img{width: 300px;}
-}

@@ -3,7 +3,17 @@ import "./home.css";
 function Home() {
   return (
     <div>
+      {/* <div className="cir"></div> */}
       <div className="parent">
+        <div
+          style={{
+            display: "flex",
+            fontSize: "4rem",
+            justifyContent: "center",
+          }}
+        >
+          <a>Dheeraj Nandiraju</a>
+        </div>
         <div>
           <h1 className="top">PORTFOLIO</h1>
           <h1 className="middle">PORTFOLIO</h1>

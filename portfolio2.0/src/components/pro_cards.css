@@ -27,6 +27,7 @@ min-width: 20vw;
 @media screen and (max-width: 1000px) {
     .wi{min-width: 30vw;}
     .dis{font-size: 2vw;}
-    .name{font-size: 3.5vw;}
+    .name{font-size: 5vw;}
     .num{font-size: 7.5vw;}
+    .dis{font-size: 2.5vw; font-style: normal;}
 }

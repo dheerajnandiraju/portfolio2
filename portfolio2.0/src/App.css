@@ -8,4 +8,9 @@
     left: 0;
     box-shadow: 0px 0px 1px 5px rgba(255, 255, 255, 0.25);   
     z-index: 1;
+    mix-blend-mode: difference;
+}
+
+@media screen and (max-width:1000px) {
+    .cursor{visibility: collapse;}
 }

@@ -1,0 +1,150 @@
+.mid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 50vw;
+  overflow-y: hidden;
+}
+
+.get {
+  font-size: 12vw;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+}
+
+.circle {
+  
+  min-width: 95vw;
+  min-height: 100vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  z-index: 0;
+  margin: -10vw 0rem 0rem 0rem;
+  font-size: 12vw;
+  font-weight: bolder;
+  overflow: hidden;
+  padding: 0rem;
+  
+}
+
+.insidecir{
+    padding: 0rem;
+    margin: -8vw 0rem 0rem 0rem;
+    color: #242B30;
+ 
+}
+.insidediv{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.insidebutt {
+  width: 20VW;
+  background-color:#242B30;
+border-radius: 5vw;
+  font-size: 2vw;
+  color: white;
+}
+
+.text1{
+  display: flex;
+  margin: 2vw 0rem 0rem 0rem;
+  font-size: 2vw;
+  font-weight: bold;
+  color: #242B30;
+  column-gap: 1vw;
+}
+
+.numm{
+  margin: 0rem 0rem 2vw 0rem ;
+  padding: 0vw 0.7vw;
+  height: fit-content;
+  font-size: 1.5vw;
+  background-color: transparent;
+  border: 1px solid #242B30;
+  border-radius: 50%;
+}
+
+.insidebutt:hover span{
+display: none;
+}
+
+.mail{
+  font-size: 2vw;
+  font-weight: lighter;
+  font-style: italic;
+  color: #242B30;
+}
+
+.insidebutt:hover:before{
+content: "HERE WE GO";
+}
+
+.insidebutt{
+  margin: 0vw 0rem 0rem 0rem;
+}
+.mail{
+  margin: -2vw 0rem 0rem 0rem;
+}
+
+.tt{
+  font-size: 2vw;
+  margin: 0.5vw 0rem 0rem 0rem;
+  width: 50vw;
+  color: #242B30;
+  display: block;
+}
+
+.ttt{
+  display: block;
+}
+
+.icons{
+  margin: -5vw 0rem 0rem 2vw;
+  column-gap: 3vw;
+  width: 10vw;
+  display: flex;
+  color: #242B30;
+}
+@media screen and (max-width: 1000px) {
+.icons{
+  width: 11vw;
+}
+
+  .ttt{
+    font-size: 2.8vw;
+  }
+  .get {
+    font-size: 7vw;
+  }
+  .circle {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .insidecir{
+    visibility: collapse;
+  }
+
+  .insidebutt{
+    font-size: 3vw;
+    width: 30vw;
+  }
+  .tt{
+    font-size: 2.5vw;
+  }
+  .mail{
+    font-size: 2.8vw;
+  }
+
+  .numm{
+    padding: 0rem 1vw 0rem 1vw;
+    font-size: 3vw;
+  }
+  .mid{
+    height: 60vw;
+  }
+
+  .insidebutt{
+    margin: -7vw 0rem 0rem 0rem;
+  }
+}
