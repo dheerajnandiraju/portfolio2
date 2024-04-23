@@ -16,7 +16,7 @@ function Skills() {
             <div className="skills">Time Management</div>
             <br />
             <div className="skills">Self-Motivation</div>
-            <div className="skills">Learninf Agility</div>
+            <div className="skills">Learning Agility</div>
           </div>
         </div>
         <div className="container">
