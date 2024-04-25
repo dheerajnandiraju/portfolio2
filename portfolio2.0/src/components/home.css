@@ -70,6 +70,7 @@ margin: -30%  0rem  0rem -30%;
     font-size: 4vw;
 }
 @media screen and (max-width: 1000px) {
+    .te{font-size: 3vw;}
     .dheeraj{font-size: 10vw;} 
     .top{font-size: 17vw;}
     .middle{font-size: 17vw; margin-top: -10vw;}
