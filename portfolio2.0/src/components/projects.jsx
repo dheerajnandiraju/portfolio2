@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <div>
-      <div id="head">Projects</div>
+      <div className="he">Projects</div>
       <div className="par">
         <div className="car">
           <Pro_cards

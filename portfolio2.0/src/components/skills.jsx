@@ -4,7 +4,7 @@ import "./skills.css";
 function Skills() {
   return (
     <div style={{ verticalAlign: "center" }}>
-      <heading id="head">Skills</heading>
+      <heading className="he">Skills</heading>
       <div className="main">
         <div className="container">
           <div className="sideheading">: : Soft Skill</div>

@@ -30,7 +30,7 @@ function Achivements() {
 
   return (
     <div style={{ margin: "0rem 0rem 4vw 0rem" }}>
-      <div id="head">Achivements</div>
+      <div className="he">Achivements</div>
       <button onClick={moveUp} className="arrowOut">
         <FaArrowUp className="arrow" size={30} />
       </button>

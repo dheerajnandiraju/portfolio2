@@ -6,11 +6,7 @@ function Home() {
       {/* <div className="cir"></div> */}
       <div className="parent">
         <div
-          style={{
-            display: "flex",
-            fontSize: "4rem",
-            justifyContent: "center",
-          }}
+        className="dheeraj"
         >
           <a>Dheeraj Nandiraju</a>
         </div>
@@ -19,7 +15,7 @@ function Home() {
           <h1 className="middle">PORTFOLIO</h1>
           <h1 className="bottom">PORTFOLIO</h1>
         </div>
-        <h5 className="text">of a Front-end developer and UI/UX designer</h5>
+        <h5 className="te">of a Front-end developer and UI/UX designer</h5>
       </div>
     </div>
   );

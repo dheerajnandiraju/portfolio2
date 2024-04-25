@@ -1,4 +1,4 @@
-#head{
+.he{
     margin: 0vw 0vw 0vw 5vw;
     font-size: 6vw;
 }
@@ -37,12 +37,14 @@
     padding: 0.5rem;
     border: 1px solid white;
     border-radius: 1.5rem;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 1000px) {
+    .he{font-size: xx-large;}
     .container{width: 90%;margin: 1rem 0rem 0rem 3rem;}
     .main{text-align: left;}
     .container2{font-size: 4vw;}
-    .skills{font-size: 3vw;}
-    .sideheading{font-size: 4vw;}
+    .skills{font-size: 3.7vw;}
+    .sideheading{font-size: 5vw;}
 }
