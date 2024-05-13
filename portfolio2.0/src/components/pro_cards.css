@@ -1,21 +1,21 @@
-.num{
+.num {
     font-size: 7vw;
     font-weight: bolder;
 }
 
-.name{
+.name {
     font-size: 3vw;
     font-weight: bolder;
     margin: -2vw 0rem 0rem 0rem;
 }
 
-.dis{
+.dis {
     font-size: 1.5vw;
 }
 
-.wi{
-   
-min-width: 20vw;
+.wi {
+
+    min-width: 20vw;
 
     margin: 10px;
     color: white;
@@ -24,10 +24,33 @@ min-width: 20vw;
     width: 20vw;
 }
 
+.icons-cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5vw;
+    margin-top: 0.5vw
+}
+
+
 @media screen and (max-width: 1000px) {
-    .wi{min-width: 30vw;}
-    .dis{font-size: 2vw;}
-    .name{font-size: 5vw;}
-    .num{font-size: 7.5vw;}
-    .dis{font-size: 2.5vw; font-style: normal;}
+    .wi {
+        min-width: 30vw;
+    }
+
+    .dis {
+        font-size: 2vw;
+    }
+
+    .name {
+        font-size: 5vw;
+    }
+
+    .num {
+        font-size: 7.5vw;
+    }
+
+    .dis {
+        font-size: 2.5vw;
+        font-style: normal;
+    }
 }

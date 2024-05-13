@@ -103,9 +103,10 @@ content: "HERE WE GO";
 .icons{
   margin: -5vw 0rem 0rem 2vw;
   column-gap: 3vw;
-  width: 10vw;
+  width: 15vw;
   display: flex;
   color: #242B30;
+  
 }
 @media screen and (max-width: 1000px) {
 .icons{

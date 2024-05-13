@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import { FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
@@ -14,6 +14,10 @@ function Contact() {
 
   function linkedin() {
     window.location = "https://www.linkedin.com/in/dheeraj-nandiraju/";
+  }
+
+  function github(){
+    window.location = "https://www.github.com/dheerajnandiraju/";
   }
   return (
     <div className="mid">
@@ -42,6 +46,7 @@ function Contact() {
           <div className="icons">
             <FaInstagram onClick={insta} />
             <FaLinkedinIn onClick={linkedin} />
+            <FaGithub onClick = {github}></FaGithub>
           </div>
         </div>
       </div>

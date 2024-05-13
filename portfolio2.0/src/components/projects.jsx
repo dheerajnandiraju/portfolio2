@@ -26,16 +26,19 @@ function Projects() {
             num="1"
             name="Project-ion"
             dis="An online integrated platform for project management"
+            git = "https://github.com/dheerajnandiraju/project-ion" vercel = ""
           />
           <Pro_cards
             num="2"
             name="Safe-Circle"
             dis="A digital hub for community to boost community safety engagement"
+            git = "https://github.com/dheerajnandiraju/safe-circle" vercel = ""
           />
           <Pro_cards
             num="3"
             name="Spotify clone"
             dis="An exact replica of Spotify UI using React js, html, css"
+            git = "https://github.com/dheerajnandiraju/spotify-clone" vercel = "https://spotify-clone2610.vercel.app/"
           />
         </div>
       </div>
