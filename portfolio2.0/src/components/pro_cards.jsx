@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import "./pro_cards.css";
 import { FaGithub } from "react-icons/fa6";
-import { TbBrandVercel } from "react-icons/tb";
+import { TbWorldWww } from "react-icons/tb";
 
 function Pro_cards(props) {
   const git = props.git ? (<FaGithub size={40} />) : "";
-  const ver = props.vercel ? <TbBrandVercel size={40} /> : "";
+  const ver = props.vercel ? <TbWorldWww size={40} /> : "";
 
   return (
     <div className="wi">
