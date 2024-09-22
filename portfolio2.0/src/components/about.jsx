@@ -12,8 +12,7 @@ function About() {
       </div>
       <div className="right">
         <p>
-          Hey there! I'm Dheeraj Nandiraju, a passionate 2nd-year student at
-          Keshav Memorial Institute of Technology. The world of web design and
+          Hey there! I'm Dheeraj Nandiraju. The world of web design and
           front-end development has captured my interest, and I'm constantly
           learning and exploring new ways to bring websites and applications to
           life.
