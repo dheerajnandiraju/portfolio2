@@ -3,6 +3,7 @@ import "./contact.css";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Contact() {
   function sendEmail() {
     window.location = "mailto:dheerajnandiraju@gmail.com";
@@ -44,9 +45,9 @@ function Contact() {
             <div className="ttt">Let's be social</div>
           </div>
           <div className="icons">
-            <FaInstagram onClick={insta} />
-            <FaLinkedinIn onClick={linkedin} />
-            <FaGithub onClick = {github}></FaGithub>
+          <FaInstagram className="icon" onClick={insta} />
+            <FaLinkedinIn className="icon" onClick={linkedin} />
+            <FaGithub className="icon" onClick = {github}></FaGithub>
           </div>
         </div>
       </div>

@@ -1,0 +1,52 @@
+.he{
+    /* margin: 0vw 0vw 0vw 5vw; */
+    font-size: 6vw;
+}
+.contain{
+   
+    width: auto;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.sideheading{
+    text-align: left;
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 3vw;
+}
+.companyName{
+    text-align: left;
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 2vw;
+    opacity: 0.7;
+}
+
+.main{
+    /*margin: 2vw 0vw 0vw 0rem;*/
+    margin:0rem;
+    text-align: left;
+
+    
+}
+
+.external {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 50vh; 
+}
+
+
+@media screen and (max-width: 1000px) {
+    .he{font-size: xx-large;}
+    .contain{ padding:0%}
+    .companyName{text-align:center}
+    .main{text-align: left;}
+    .container2{font-size: 4vw;}
+    .skills{font-size: 3.7vw;}
+    .sideheading{font-size: 5vw;}
+    .external{flex-direction:column; justify-content:start; height:auto; padding:0%}
+}

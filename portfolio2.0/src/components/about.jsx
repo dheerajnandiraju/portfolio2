@@ -11,6 +11,7 @@ function About() {
         <img className="img" src={img} alt="" />
       </div>
       <div className="right">
+        
         <p>
           Hey there! I'm Dheeraj Nandiraju. The world of web design and
           front-end development has captured my interest, and I'm constantly

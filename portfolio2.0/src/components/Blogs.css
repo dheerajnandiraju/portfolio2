@@ -1,0 +1,30 @@
+.he{
+    /* margin: 0vw 0vw 0vw 5vw; */
+    font-size: 6vw;
+}
+
+.main{
+    margin: 4vw 0vw 9vw 0rem;
+    text-align: center;
+
+    
+}
+.container{
+   
+    width: 30vw;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align:left
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .he{font-size: xx-large;}
+    .container{width: 90%;margin: 1rem 0rem 0rem 3rem;}
+    .main{text-align: left;}
+    .container2{font-size: 4vw;}
+    .skills{font-size: 3.7vw;}
+    .sideheading{font-size: 5vw;}
+}

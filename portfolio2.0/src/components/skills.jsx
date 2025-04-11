@@ -3,7 +3,7 @@ import "./skills.css";
 
 function Skills() {
   return (
-    <div style={{ verticalAlign: "center" }}>
+    <div style={{ verticalAlign: "center",paddingLeft: "5vw" }}>
       <heading className="he">Skills</heading>
       <div className="main">
         <div className="container">
@@ -42,7 +42,7 @@ function Skills() {
             <div className="skills">Canva</div>
             <br />
 
-            <div className="skills">VS Code</div>
+            <div className="skills">Docker</div>
           </div>
         </div>
       </div>

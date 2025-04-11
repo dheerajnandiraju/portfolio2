@@ -15,7 +15,7 @@
 
 .circle {
   
-  min-width: 99vw;
+  min-width: 98vw;
   min-height: 100vw;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
@@ -108,6 +108,18 @@ content: "HERE WE GO";
   color: #242B30;
   
 }
+
+.icon {
+  font-size: 250px;
+  transition: font-size 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  font-size: 200px;
+}
+
+
 @media screen and (max-width: 1000px) {
 .icons{
   width: 11vw;

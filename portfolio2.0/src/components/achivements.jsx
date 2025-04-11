@@ -8,6 +8,7 @@ import five from "./certificates/five.jpg";
 import six from "./certificates/six.jpg";
 import seven from "./certificates/seven.jpg";
 import eight from "./certificates/eight.jpg";
+import nine from "./certificates/nine.jpg"
 import Card from "./card";
 import { FaArrowUp } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
@@ -29,7 +30,7 @@ function Achivements() {
   };
 
   return (
-    <div style={{ margin: "0rem 0rem 4vw 0rem" }}>
+    <div style={{ verticalAlign: "center",paddingLeft: "5vw", marginBottom: "4vw" }}>
       <div className="he">Achivements</div>
       <button onClick={moveUp} className="arrowOut">
         <FaArrowUp className="arrow" size={30} />
@@ -47,6 +48,14 @@ function Achivements() {
             "This certificate marks my achievement of 1st place in the IEEE MJCET Hackathon."
           }
         />
+
+        <Card
+          img={nine}
+          pg={
+            "This certificate is awarded for reaching the final round at KMIT Codenovate hackathon 2024."
+          }
+        />
+
         <Card
           img={three}
           pg={

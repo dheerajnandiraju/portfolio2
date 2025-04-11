@@ -9,6 +9,10 @@ import { useEffect, useState } from 'react';
 import Achivements from './components/achivements';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import Experience from './components/Experience';
+import Blogs from './components/Blogs';
+import ClickSpark from './components/ClickSpark'
+
 
 function App() {
   const [mousep, setmousep]=useState({x:0, y:0})
@@ -48,6 +52,13 @@ window.removeEventListener("mousemove", mouseMove)
             delay: 0,
       }}
       />
+<ClickSpark
+  sparkColor='#fff'
+  sparkSize={20}
+  sparkRadius={25}
+  sparkCount={7}
+  duration={400}
+>
 <Navbar/>
 <Home/>
 <hr/>
@@ -55,11 +66,16 @@ window.removeEventListener("mousemove", mouseMove)
 <hr/>
 <Skills/>
 <hr/>
-<Achivements/>
-<hr/>
 <Projects/>
 <hr/>
+<Achivements/>
+<hr/>
+<Experience/>
+<hr/>
+<Blogs/>
+<hr/>
 <Contact/>
+</ClickSpark>
     </div>
   );
 }
